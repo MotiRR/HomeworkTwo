@@ -17,10 +17,10 @@ public class Mobile extends Device {
     @Override
     public String toString() {
         return "Mobile{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", components='" + components + '\'' +
-                ", status=" + status +
+                "id=" + super.getId() +
+                ", name='" + super.getName() + '\'' +
+                ", components='" + super.getComponents() + '\'' +
+                ", status=" + super.getStatus() +
                 '}';
     }
 }

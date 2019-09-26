@@ -2,7 +2,9 @@ package ru.Sber.edu.Components;
 
 public class Accumulator extends Component {
 
-    public Accumulator(){}
+    public Accumulator() {
+    }
+
     public Accumulator(int id, String name, boolean status) {
         super(id, name, status);
     }
@@ -10,9 +12,9 @@ public class Accumulator extends Component {
     @Override
     public String toString() {
         return "Accumulator{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", status=" + status +
+                "id=" + super.getId() +
+                ", name='" + super.getName() + '\'' +
+                ", status=" + super.isStatus() +
                 '}';
     }
 }

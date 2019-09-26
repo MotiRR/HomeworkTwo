@@ -5,12 +5,13 @@ import ru.Sber.edu.Components.Component;
 import java.util.TreeMap;
 
 public abstract class Device {
-    protected int id;
-    protected String name;
-    protected TreeMap<Integer, Component> components;
-    protected Status status;
+    private int id;
+    private String name;
+    private TreeMap<Integer, Component> components;
+    private Status status;
 
-    public Device(){}
+    public Device() {
+    }
 
     public Device(int id, String name, TreeMap<Integer, Component> components, Status status) {
         this.id = id;
@@ -35,9 +36,9 @@ public abstract class Device {
         return name;
     }
 
-   /* public void setComponents(TreeMap<Integer, Component>) {
+    public void setComponents(TreeMap<Integer, Component> components) {
         this.components = components;
-    }*/
+    }
 
     public void setStatus(Status status) {
         this.status = status;

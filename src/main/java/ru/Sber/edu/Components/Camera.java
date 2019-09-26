@@ -1,8 +1,10 @@
 package ru.Sber.edu.Components;
 
-public class Camera extends Component{
+public class Camera extends Component {
 
-    public Camera(){}
+    public Camera() {
+    }
+
     public Camera(int id, String name, boolean status) {
         super(id, name, status);
     }
@@ -10,9 +12,9 @@ public class Camera extends Component{
     @Override
     public String toString() {
         return "Camera{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", status=" + status +
+                "id=" + super.getId() +
+                ", name='" + super.getName() + '\'' +
+                ", status=" + super.isStatus() +
                 '}';
     }
 }

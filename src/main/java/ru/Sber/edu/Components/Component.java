@@ -1,9 +1,9 @@
 package ru.Sber.edu.Components;
 
 public abstract class Component {
-    protected int id;
-    protected String name;
-    boolean status;
+    private int id;
+    private String name;
+    private boolean status;
 
     public Component() {
     }
