@@ -12,9 +12,9 @@ public class Camera extends Component {
     @Override
     public String toString() {
         return "Camera{" +
-                "id=" + super.getId() +
-                ", name='" + super.getName() + '\'' +
-                ", status=" + super.isStatus() +
+                "id=" + getId() +
+                ", name='" + getName() + '\'' +
+                ", status=" + isStatus() +
                 '}';
     }
 }
