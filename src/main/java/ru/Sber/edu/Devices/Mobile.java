@@ -1,12 +1,12 @@
-package Devices;
+package ru.Sber.edu.Devices;
 
-import Components.Component;
-import java.util.ArrayList;
+import ru.Sber.edu.Components.Component;
+
 import java.util.TreeMap;
 
 public class Mobile extends Device {
 
-    public Mobile(){
+    public Mobile() {
         super();
     }
 

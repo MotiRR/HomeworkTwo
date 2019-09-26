@@ -1,15 +1,15 @@
-package Components;
+package ru.Sber.edu.Components;
 
-public class Accumulator extends Component {
+public class Camera extends Component{
 
-    public Accumulator(){}
-    public Accumulator(int id, String name, boolean status) {
+    public Camera(){}
+    public Camera(int id, String name, boolean status) {
         super(id, name, status);
     }
 
     @Override
     public String toString() {
-        return "Accumulator{" +
+        return "Camera{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", status=" + status +

@@ -1,7 +1,7 @@
-package Devices;
+package ru.Sber.edu.Devices;
 
-import Components.Component;
-import java.util.ArrayList;
+import ru.Sber.edu.Components.Component;
+
 import java.util.TreeMap;
 
 public abstract class Device {

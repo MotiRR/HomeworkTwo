@@ -1,11 +1,13 @@
-package Components;
+package ru.Sber.edu.Components;
 
-public abstract class Component  {
+public abstract class Component {
     protected int id;
     protected String name;
     boolean status;
 
-    public Component(){}
+    public Component() {
+    }
+
     public Component(int id, String name, boolean status) {
         this.id = id;
         this.name = name;
