@@ -39,7 +39,7 @@ mvn clean install
 ```
 # Запуск
 ```
-mvn exec:java -Dexec.mainClass="ru.Sber.edu.Main"
+mvn exec:java -Dexec.mainClass="ru.sber.edu.Main"
 ```
 # Результат
 Результат представлен в файле "loging.log"
