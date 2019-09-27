@@ -1,11 +1,11 @@
-package ru.Sber.edu;
+package ru.sber.edu;
 
-import ru.Sber.edu.Components.Accumulator;
-import ru.Sber.edu.Components.Camera;
-import ru.Sber.edu.Components.Component;
-import ru.Sber.edu.Devices.Device;
-import ru.Sber.edu.Devices.Mobile;
-import ru.Sber.edu.Devices.Status;
+import ru.sber.edu.components.Accumulator;
+import ru.sber.edu.components.Camera;
+import ru.sber.edu.components.Component;
+import ru.sber.edu.devices.Device;
+import ru.sber.edu.devices.Mobile;
+import ru.sber.edu.devices.Status;
 
 import java.util.TreeMap;
 

@@ -1,4 +1,4 @@
-package ru.Sber.edu.Devices;
+package ru.sber.edu.devices;
 
 public enum Status {
     normal,

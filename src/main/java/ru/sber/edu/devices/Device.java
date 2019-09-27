@@ -1,6 +1,6 @@
-package ru.Sber.edu.Devices;
+package ru.sber.edu.devices;
 
-import ru.Sber.edu.Components.Component;
+import ru.sber.edu.components.Component;
 
 import java.util.TreeMap;
 

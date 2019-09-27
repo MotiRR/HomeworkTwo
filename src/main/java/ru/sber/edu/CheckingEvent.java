@@ -1,10 +1,10 @@
-package ru.Sber.edu;
+package ru.sber.edu;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.Sber.edu.Components.Component;
-import ru.Sber.edu.Devices.Device;
-import ru.Sber.edu.Devices.Status;
+import ru.sber.edu.components.Component;
+import ru.sber.edu.devices.Device;
+import ru.sber.edu.devices.Status;
 
 import java.util.TreeMap;
 

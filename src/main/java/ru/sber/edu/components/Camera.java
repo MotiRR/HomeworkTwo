@@ -1,4 +1,4 @@
-package ru.Sber.edu.Components;
+package ru.sber.edu.components;
 
 public class Camera extends Component {
 
