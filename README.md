@@ -1,5 +1,4 @@
-# HomeworkTwo
-# Домашнее задание
+# Задание
 
 Имеется набор устройств Device. Каждый device имеет id (Integer), name (String), набор компонентов Component и status (для статуса устройства предусмотрено три значения: normal, warning, error).
 
